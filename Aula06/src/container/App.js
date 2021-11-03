@@ -1,27 +1,8 @@
-import ClassComponent from './components/ClassComponents';
-import FunctionComponent from './components/FunctionComponents';
-import './App.css';
+import ClassComponent from '../components/ClassComponents';
+import FunctionComponent from '../components/FunctionComponents';
+import '../styles/App.css';
 
 function App() {
-
-const lista = [
-  {
-    nome: 'Nicolas',
-    estaNaLista: true,
-    tarefa: 'batata-frita'
-  },
-  {
-    nome: 'Pedro',
-    estaNaLista: false,
-    tarefa: 'pizza'
-  },
-  {
-    nome: 'Carolina',
-    estaNaLista: true,
-    tarefa: 'bebidas'
-  }
-]
-
   return (
     <>
     <div className="App">
@@ -33,8 +14,6 @@ const lista = [
      <FunctionComponent nome="Nicolas" tarefa="batata-frita" />
      <FunctionComponent nome="Pedro" tarefa="pizza" />
      <FunctionComponent nome="Carolina" tarefa="bebidas" />
-
-    
     </div>
     </>
   );
