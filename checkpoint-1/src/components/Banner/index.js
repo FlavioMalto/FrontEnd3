@@ -4,6 +4,7 @@ const Banner = () => {
     return (
         <section id="banner">
       <div className="banner-text">
+        <h1>CheckPoint Front End III</h1>
         
       </div>
     </section>

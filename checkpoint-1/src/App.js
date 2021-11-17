@@ -4,16 +4,20 @@ import './App.scss';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Banner from './components/Banner';
+import Projetos from './components/Projetos';
 
 function App() {
   return (
     <>
     <div className="App">
       <Header/>
-      <Footer/>
       <Banner>
-        
+
       </Banner>
+      <Projetos/>
+      <Footer/>
+      
+      
     </div>
     </>
   );

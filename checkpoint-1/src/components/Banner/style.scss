@@ -1,0 +1,29 @@
+#banner {
+    height:100%;
+    width:100%;
+
+    background: center / cover no-repeat url(https://c.pxhere.com/photos/33/17/coffee_computer_device_digital_electronics_hands_keyboard_laptop-1518135.jpg!d);
+
+    background-position: center center;
+    background-size: 100%;
+
+    .banner-text {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+
+        h1 {
+            display: flex;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.753);
+            padding: 0.5rem;
+            
+        }
+
+    }
+
+    
+}
